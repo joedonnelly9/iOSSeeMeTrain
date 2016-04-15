@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  SeeMeTrain
 //
 //  Created by Vagrant on 4/13/16.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class PlaylistViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-
-
+    }   
+    
 }
 
