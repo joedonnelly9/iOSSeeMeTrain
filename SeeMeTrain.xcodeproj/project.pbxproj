@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B6BB44D1CBF3DAF0017BF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BB44C1CBF3DAF0017BF85 /* AppDelegate.swift */; };
-		5B6BB44F1CBF3DAF0017BF85 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BB44E1CBF3DAF0017BF85 /* FirstViewController.swift */; };
+		5B6BB44F1CBF3DAF0017BF85 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BB44E1CBF3DAF0017BF85 /* RecordViewController.swift */; };
 		5B6BB4511CBF3DAF0017BF85 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BB4501CBF3DAF0017BF85 /* SecondViewController.swift */; };
 		5B6BB4541CBF3DAF0017BF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6BB4521CBF3DAF0017BF85 /* Main.storyboard */; };
 		5B6BB4561CBF3DAF0017BF85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6BB4551CBF3DAF0017BF85 /* Images.xcassets */; };
@@ -17,6 +17,7 @@
 		AC1FB9C31CC17ECA00888CD9 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FB9C21CC17ECA00888CD9 /* PlaylistViewController.swift */; };
 		AC1FB9C51CC182A000888CD9 /* BeginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FB9C41CC182A000888CD9 /* BeginViewController.swift */; };
 		AC1FB9C71CC182B200888CD9 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FB9C61CC182B200888CD9 /* HistoryViewController.swift */; };
+		AC40BB5E1CC41FAC00143BAF /* VideoCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40BB5D1CC41FAC00143BAF /* VideoCaptureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,7 @@
 		5B6BB4471CBF3DAF0017BF85 /* SeeMeTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeMeTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6BB44B1CBF3DAF0017BF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B6BB44C1CBF3DAF0017BF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B6BB44E1CBF3DAF0017BF85 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5B6BB44E1CBF3DAF0017BF85 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		5B6BB4501CBF3DAF0017BF85 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5B6BB4531CBF3DAF0017BF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B6BB4551CBF3DAF0017BF85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 		AC1FB9C21CC17ECA00888CD9 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 		AC1FB9C41CC182A000888CD9 /* BeginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeginViewController.swift; sourceTree = "<group>"; };
 		AC1FB9C61CC182B200888CD9 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		AC40BB5D1CC41FAC00143BAF /* VideoCaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCaptureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				5B6BB44C1CBF3DAF0017BF85 /* AppDelegate.swift */,
-				5B6BB44E1CBF3DAF0017BF85 /* FirstViewController.swift */,
+				5B6BB44E1CBF3DAF0017BF85 /* RecordViewController.swift */,
 				5B6BB4501CBF3DAF0017BF85 /* SecondViewController.swift */,
 				AC1FB9C21CC17ECA00888CD9 /* PlaylistViewController.swift */,
 				AC1FB9C41CC182A000888CD9 /* BeginViewController.swift */,
 				AC1FB9C61CC182B200888CD9 /* HistoryViewController.swift */,
+				AC40BB5D1CC41FAC00143BAF /* VideoCaptureViewController.swift */,
 				5B6BB4521CBF3DAF0017BF85 /* Main.storyboard */,
 				5B6BB4551CBF3DAF0017BF85 /* Images.xcassets */,
 				5B6BB4571CBF3DAF0017BF85 /* LaunchScreen.xib */,
@@ -224,12 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC40BB5E1CC41FAC00143BAF /* VideoCaptureViewController.swift in Sources */,
 				AC1FB9C31CC17ECA00888CD9 /* PlaylistViewController.swift in Sources */,
 				AC1FB9C51CC182A000888CD9 /* BeginViewController.swift in Sources */,
 				5B6BB4511CBF3DAF0017BF85 /* SecondViewController.swift in Sources */,
 				AC1FB9C71CC182B200888CD9 /* HistoryViewController.swift in Sources */,
 				5B6BB44D1CBF3DAF0017BF85 /* AppDelegate.swift in Sources */,
-				5B6BB44F1CBF3DAF0017BF85 /* FirstViewController.swift in Sources */,
+				5B6BB44F1CBF3DAF0017BF85 /* RecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

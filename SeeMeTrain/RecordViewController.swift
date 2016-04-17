@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  RecordViewController.swift
 //  SeeMeTrain
 //
 //  Created by Vagrant on 4/13/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class RecordViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
