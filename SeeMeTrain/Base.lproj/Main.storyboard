@@ -90,25 +90,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Es3-SK-sa7">
-                                <rect key="frame" x="16" y="56" width="568" height="300"/>
+                                <rect key="frame" x="11" y="70" width="496" height="295"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="7" translatesAutoresizingMaskIntoConstraints="NO" id="s9z-VV-Ve2">
-                                        <rect key="frame" x="6" y="8" width="306" height="31"/>
+                                        <rect key="frame" x="-2" y="12" width="306" height="31"/>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Interval" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzH-Ud-j2t">
-                                        <rect key="frame" x="332" y="17" width="56" height="21"/>
+                                        <rect key="frame" x="332" y="12" width="56" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Start Alarm for the schedule" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYD-Mz-fUT">
-                                        <rect key="frame" x="19" y="83" width="215" height="21"/>
+                                        <rect key="frame" x="19" y="78" width="215" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q7d-eF-iVe">
-                                        <rect key="frame" x="332" y="78" width="51" height="31"/>
+                                        <rect key="frame" x="332" y="68" width="51" height="31"/>
                                     </switch>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -172,8 +172,14 @@
                                 <state key="normal" title="Login">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jf5-tf-jR6">
+                                <rect key="frame" x="127" y="246" width="104" height="30"/>
+                                <state key="normal" title="About The App">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
-                                    <segue destination="49e-Tb-3d3" kind="show" id="Mqb-kA-SJt"/>
+                                    <segue destination="CxC-Ds-izC" kind="show" id="zPt-L3-ima"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -184,6 +190,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vxg-9c-pJI" userLabel="First Responder" colorLabel="IBBuiltInLabel-Blue" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-684" y="1259"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XTz-xg-KMT">
+            <objects>
+                <viewController id="CxC-Ds-izC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Klf-de-6WG"/>
+                        <viewControllerLayoutGuide type="bottom" id="fzS-Rl-81r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" id="6Ff-QM-qE0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="73M-ZK-zXr">
+                                <rect key="frame" x="0.0" y="10" width="600" height="400"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Many dogs are left at home alone for at least up to 8 – 10 hours a day. Many pay for one-on-one professional training sessions or come home and work on basic commands to train your dog. SeeMeTrain training app allows you to train your pet while you are at    work or    out    of the home    for an extended    period of time during the day.                                          Procedure: Set the schedule and playlist information. Place the device in an area that the dog can hear and see the video, but not reach.Keep the commands simple. Repeat the commands. Give the dog    praise (minus the treats). When    making your    video, make it as natural sounding as possible. Allow for a few minutes to let the dog complete the command since you can’t see him/her do it. Come home and test it out!                                        Developed by Team Sapphire in Capstone Program from College of Computer Science and Engineering in Ohio State University  Team members: Joe Donnelly, Ramya Ravishankar, Soumyashree Gad and Zijiang Yang  Professor: Alan Cline</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mfc-Yd-ChS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-332" y="1437"/>
         </scene>
         <!--History-->
         <scene sceneID="dNZ-lk-dI5">
