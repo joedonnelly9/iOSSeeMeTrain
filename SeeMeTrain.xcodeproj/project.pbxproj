@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A875ED61CC53C7600435D10 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A875ED51CC53C7600435D10 /* Login.m */; };
+		0A875ED81CC53C9900435D10 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A875ED71CC53C9900435D10 /* Playlist.swift */; };
 		5B6BB44D1CBF3DAF0017BF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BB44C1CBF3DAF0017BF85 /* AppDelegate.swift */; };
 		5B6BB44F1CBF3DAF0017BF85 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BB44E1CBF3DAF0017BF85 /* RecordViewController.swift */; };
 		5B6BB4511CBF3DAF0017BF85 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BB4501CBF3DAF0017BF85 /* SecondViewController.swift */; };
@@ -31,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A875ED41CC53C7600435D10 /* SeeMeTrain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeeMeTrain-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A875ED51CC53C7600435D10 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		0A875ED71CC53C9900435D10 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		5B6BB4471CBF3DAF0017BF85 /* SeeMeTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeMeTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6BB44B1CBF3DAF0017BF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B6BB44C1CBF3DAF0017BF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +96,8 @@
 				5B6BB44E1CBF3DAF0017BF85 /* RecordViewController.swift */,
 				5B6BB4501CBF3DAF0017BF85 /* SecondViewController.swift */,
 				AC1FB9C21CC17ECA00888CD9 /* PlaylistViewController.swift */,
+				0A875ED71CC53C9900435D10 /* Playlist.swift */,
+				0A875ED51CC53C7600435D10 /* Login.m */,
 				AC1FB9C41CC182A000888CD9 /* BeginViewController.swift */,
 				AC1FB9C61CC182B200888CD9 /* HistoryViewController.swift */,
 				AC40BB5D1CC41FAC00143BAF /* VideoCaptureViewController.swift */,
@@ -98,6 +105,7 @@
 				5B6BB4551CBF3DAF0017BF85 /* Images.xcassets */,
 				5B6BB4571CBF3DAF0017BF85 /* LaunchScreen.xib */,
 				5B6BB44A1CBF3DAF0017BF85 /* Supporting Files */,
+				0A875ED41CC53C7600435D10 /* SeeMeTrain-Bridging-Header.h */,
 			);
 			path = SeeMeTrain;
 			sourceTree = "<group>";
@@ -227,9 +235,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A875ED81CC53C9900435D10 /* Playlist.swift in Sources */,
 				AC40BB5E1CC41FAC00143BAF /* VideoCaptureViewController.swift in Sources */,
 				AC1FB9C31CC17ECA00888CD9 /* PlaylistViewController.swift in Sources */,
 				AC1FB9C51CC182A000888CD9 /* BeginViewController.swift in Sources */,
+				0A875ED61CC53C7600435D10 /* Login.m in Sources */,
 				5B6BB4511CBF3DAF0017BF85 /* SecondViewController.swift in Sources */,
 				AC1FB9C71CC182B200888CD9 /* HistoryViewController.swift in Sources */,
 				5B6BB44D1CBF3DAF0017BF85 /* AppDelegate.swift in Sources */,
@@ -362,10 +372,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SeeMeTrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SeeMeTrain/SeeMeTrain-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -374,10 +387,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SeeMeTrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SeeMeTrain/SeeMeTrain-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
